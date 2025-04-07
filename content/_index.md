@@ -1,17 +1,21 @@
 ---
-title: My Site
+title: VX1988
 toc: false
 ---
 
-This is the landing page.
+This notes is mainly focus on malware code research and computer programming compiled from various public sources. 
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
+  {{< card link="analysis" title="👾 Malware Analysis Archives">}}
+  {{< card link="docs" title="🦀 Malware Notes">}}
+  {{< card link="gallery" icon="tag" title="Malware Gallery" tag="maintenance" tagType="warning" >}}
+  {{< card link="about" title="Author: VX1988" icon="user" >}}
+{{< /cards >}} 
 
-## Documentation
+## Disclaimer
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+{{< callout type="warning" >}}
+  All the notes are for educational and research purposes only. Do not attempt to violate the law with anything contained in notes produced by this notes. Neither the authors of this notes, or anyone else affiliated in any way, is going to accept responsibility for your actions.
+{{< /callout >}}
