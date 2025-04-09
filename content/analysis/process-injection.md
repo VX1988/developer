@@ -1,9 +1,10 @@
 ---
 title: Process Injection Note Analysis
 type: docs
+prev: analysis/
 ---
 
-# Process Injection Newly Create Process
+## PS: Process Injection Newly Create Process
 
 - Script Tap inside windows telemetry.
 - Required admin priviledge. 
