@@ -19,7 +19,7 @@ markup:
 menu:
   main:
     - name: Workshop Slides
-      url: "https://speakerdeck.com/1988_"
+      url: "https://speakerdeck.com/vx1988"
       weight: 1
     - name: About
       pageRef: /about
