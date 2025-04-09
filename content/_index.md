@@ -8,9 +8,9 @@ This notes is mainly focus on malware code research and computer programming com
 ## Explore
 
 {{< cards >}}
-  {{< card link="analysis" title="🔵 Malware Analysis">}}
+  {{< card link="analysis" title="🔵 Malware Analysis Notes">}}
   {{< card link="docs" title="💥 Malware Offensive Notes">}}
-  {{< card link="gallery" icon="tag" title="🕷️ Malware Gallery" tag="maintenance" tagType="warning" >}}
+  {{< card link="gallery" icon="tag" title="Malware Gallery" tag="maintenance" tagType="warning" >}}
   {{< card link="about" title="❔ Author: VX1988" icon="user" >}}
 {{< /cards >}} 
 
