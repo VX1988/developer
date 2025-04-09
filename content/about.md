@@ -7,4 +7,4 @@ Malware Code Researcher and Computer Programmer.
 
 ## Contact Information
 
-Email: 1988@vx-engineering.org
+Email: 1988[at]vx-engineering.org
