@@ -17,6 +17,6 @@ Workshop "Rust: Vectors, ObfuscateX and DeobfuscateX".
 
 {{< /cards >}}
 
-The slide is available at: https://speakerdeck.com/1988_/rust-vectors-obfuscatex-and-deobfuscatex
+The slide is available at: https://speakerdeck.com/vx1988/rust-vectors-obfuscatex-and-deobfuscatex
 
 This workshop content draws upon valuable resources from a variety of contributors. Their expertise and insights are gratefully acknowledged
