@@ -27,15 +27,15 @@ I got tired of re-writing the same code over and over so I ended up making a pri
 
 As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments. -->
 
-{{< cards >}}
-  {{< card link="rust" title="Rust">}}
-  {{< card link="powershell" title="Powershell">}}
-{{< /cards >}} 
-
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Rust"
     link="rust"
-    subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
+    subtitle="Rust 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
+  >}}
+  {{< hextra/feature-card
+    title="Powershell"
+    link="powershell"
+    subtitle="Powershell 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
   >}}
 {{< /hextra/feature-grid >}}
