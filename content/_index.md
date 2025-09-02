@@ -19,4 +19,4 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
   {{< card link="about" title="Author: VX1988" icon="user" >}}
 {{< /cards >}} 
 
-Disclaimer: All the notes are for educational and research purposes only. Do not attempt to violate the law with anything contained in notes produced by this notes. Neither the authors of this notes, or anyone else affiliated in any way, is going to accept responsibility for your actions.
+Disclaimer: All the notes are for educational and research purposes only. 
