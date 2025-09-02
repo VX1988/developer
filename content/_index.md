@@ -11,13 +11,20 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Software Development&nbsp;<br class="hx:sm:block hx:hidden" />Code Cave Snippets
+  VX1988: Software Development&nbsp;<br class="hx:sm:block hx:hidden" />Code Cave Snippets
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  This is my website dedicated to archiving&nbsp;<br class="hx:sm:block hx:hidden" /> and sharing various software development code snippets
+  <!-- This is my website dedicated to archiving&nbsp;<br class="hx:sm:block hx:hidden" /> and sharing various software development code snippets -->
+
+This is my website dedicated to archiving and sharing various software development code snippets.
+
+I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
+
+As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments.
+
 {{< /hextra/hero-subtitle >}}
 </div>
 
