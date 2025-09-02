@@ -29,18 +29,15 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
 
 <div class="hx:mt-6"></div>
 
-{{< hextra/hero-subtitle >}}
-{{< /hextra/hero-subtitle >}}
-
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Rust"
     link="rust"
-    subtitle="Rust 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
+    subtitle="Rust 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
   >}}
   {{< hextra/feature-card
     title="Powershell"
     link="powershell"
-    subtitle="Powershell 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
+    subtitle="Powershell 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉"
   >}}
 {{< /hextra/feature-grid >}}
