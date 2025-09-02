@@ -3,6 +3,24 @@ title: VX1988 Code Cave
 layout: hextra-home
 ---
 
+{{< hextra/hero-badge >}}
+  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
+  <span>Free, open source</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+
+<div class="hx:mt-6 hx:mb-6">
+{{< hextra/hero-headline >}}
+  Build modern websites&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
+{{< /hextra/hero-headline >}}
+</div>
+
+<div class="hx:mb-12">
+{{< hextra/hero-subtitle >}}
+  Fast, batteries-included Hugo theme&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
+{{< /hextra/hero-subtitle >}}
+</div>
+
 This is my website dedicated to archiving and sharing various software development code snippets.
 
 I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
