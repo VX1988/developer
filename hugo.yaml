@@ -18,27 +18,27 @@ markup:
 
 menu:
   main:
-    - name: Workshop Slides
-      url: "https://speakerdeck.com/vx1988"
-      weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://www.vx1988.online/"
-      weight: 3
+    # - name: Workshop Slides
+    #   url: "https://example.com"
+    #   weight: 1
+    # - name: About
+    #   pageRef: /about
+    #   weight: 2
+    # - name: Contact ↗
+    #   url: "https://example.com"
+    #   weight: 3
     - name: Search
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://www.vx1988.online/"
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 5
+    #   url: "https://example.com"
+    #   params:
+    #     icon: github
     - name: Twitter
       weight: 6
-      url: "https://www.vx1988.online/"
+      url: "https://x.com/VX198800"
       params:
         icon: x-twitter
 
