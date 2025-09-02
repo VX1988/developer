@@ -17,7 +17,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  This is my website dedicated to archiving&nbsp;<br class="hx:sm:block hx:hidden" /> and sharing various software development code snippets.&nbsp;<br class="hx:sm:block hx:hidden" />  All the notes are for educational and research purposes only.
+  This is my website dedicated to archiving and sharing various software development code snippets.&nbsp;<br class="hx:sm:block hx:hidden" />  All the notes are for educational and research purposes only.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -31,3 +31,11 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
   {{< card link="rust" title="Rust">}}
   {{< card link="powershell" title="Powershell">}}
 {{< /cards >}} 
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Rust"
+    link="rust"
+    subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
+  >}}
+{{< /hextra/feature-grid >}}
