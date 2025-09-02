@@ -63,11 +63,9 @@ params:
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
-params:
   theme:
     # light | dark | system
     default: light
     displayToggle: true
 
-params:
   externalLinkDecoration: true
