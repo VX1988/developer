@@ -11,6 +11,7 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
 
 {{< cards >}}
   {{< card link="rust" title="Rust Code">}}
+  {{< card link="powershell" title="Powershell Code">}}
   {{< card link="analysis" title="👾 Malware Analysis Notes">}}
   {{< card link="docs" title="💥 Malware Offensive Notes">}}
   {{< card link="gallery" icon="tag" title="Malware Gallery" tag="maintenance" tagType="warning" >}}
