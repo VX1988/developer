@@ -1,6 +1,6 @@
 ---
 title: VX1988 Code Cave
-toc: false  
+layout: hextra-home
 ---
 
 This is my website dedicated to archiving and sharing various software development code snippets.
