@@ -17,7 +17,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  This is my website dedicated to archiving and sharing various software development code snippets.&nbsp;<br class="hx:sm:block hx:hidden" />  All the notes are for educational and research purposes only.
+  This is my website dedicated to archiving and sharing various software development code snippets.&nbsp;<br class="hx:sm:block hx:hidden" />  All the notes are for educational and research purposes only.&nbsp;<br class="hx:sm:block hx:hidden" />
 {{< /hextra/hero-subtitle >}}
 </div>
 
