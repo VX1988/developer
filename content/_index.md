@@ -1,5 +1,5 @@
 ---
-title: VX1988 Code
+title: VX1988 Code Cave
 toc: false
 ---
 
@@ -17,4 +17,4 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
   {{< card link="about" title="Author: VX1988" icon="user" >}}
 {{< /cards >}} 
 
-Disclaimer: All the notes are for educational and research purposes only. 
+Disclaimer: *All the notes are for educational and research purposes only.*
