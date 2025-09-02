@@ -1,9 +1,4 @@
-
----
-title: Powershell
----
-
-# Detect Newly Create Process, Process Injection.
+## Detect Newly Create Process, Process Injection.
 
 - Script Tap inside windows telemetry.
 - Required admin priviledge.
