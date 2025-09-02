@@ -17,12 +17,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-
-  This is my website dedicated to archiving and sharing various software development code snippets.&nbsp;<br class="hx:sm:block hx:hidden"
-  I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.&nbsp;<br class="hx:sm:block hx:hidden"
-  As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments.
-
-
+  This is my website dedicated to archiving&nbsp;<br class="hx:sm:block hx:hidden" /> and sharing various software development code snippets
 {{< /hextra/hero-subtitle >}}
 </div>
 
