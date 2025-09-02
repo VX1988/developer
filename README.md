@@ -1,1 +1,1 @@
-*All the notes are for educational and research purposes only. Do not attempt to violate the law with anything contained in notes produced by this notes. Neither the authors of this notes, or anyone else affiliated in any way, is going to accept responsibility for your actions.*
+*All the notes are for educational and research purposes only.*
