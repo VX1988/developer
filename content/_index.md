@@ -27,7 +27,7 @@ I got tired of re-writing the same code over and over so I ended up making a pri
 
 As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments. -->
 
-<div class="hx:mt-6"></div>
+<div class="hx:mt-12">
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -41,3 +41,5 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
     subtitle="Powershell 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
   >}}
 {{< /hextra/feature-grid >}}
+
+</div>
