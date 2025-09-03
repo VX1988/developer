@@ -25,8 +25,9 @@ fn main() {
 
 # Reused to spawn multiple processes
 
+Command can be reused to spawn multiple processes. The builder methods change the command without needing to immediately spawn the process.
+
 ```rs
-// Command can be reused to spawn multiple processes. The builder methods change the command without needing to immediately spawn the process.
 
 use std::process::Command;
 
@@ -36,6 +37,29 @@ fn main() {
 	echo_hello.spawn().expect("failed to execute process");
 	let hello_2 = echo_hello.status().expect("failed to execute process");
 	let _ = echo_hello.output().expect("failed to execute process");
+}
+
+```
+
+Reuse and modify a Command object to spawn multiple processes with different settings.
+
+```rs
+use std::process::Command;
+
+fn main() {
+    let mut list_dir = Command::new("cmd");
+
+    // Run `cmd /C dir` in the current directory
+    list_dir.args(["/C", "dir"]);
+    list_dir.status().expect("process failed to execute");
+
+    println!();
+
+    // Change to the root directory (C:\)
+    list_dir.current_dir("C:\\"); // Change to the root directory (C:\)
+
+    // Run `cmd /C dir` again, now in C:\
+    list_dir.status().expect("process failed to execute");
 }
 
 ```
