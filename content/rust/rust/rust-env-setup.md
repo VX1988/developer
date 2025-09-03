@@ -5,7 +5,7 @@ type: docs
 
 # Verify Environment Rust Installation
 
-- `rustup --version`: Check Rust Installation 
+- `rustup --version` Check Rust Installation 
 - `cargo --version`: Check Rust Installation 
 - `rustup`: verify that your environment has installed rustup
 - `rustup show`: Verify toolchain 

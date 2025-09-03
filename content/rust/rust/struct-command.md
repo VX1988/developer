@@ -3,6 +3,29 @@ title: Struct command
 type: docs
 ---
 
+```rs
+// Unofficial Rust Internal
+// std::sys::windows::process::Command
+
+pub struct Command {
+    program: OsString,
+    args: Vec<Arg>,
+    env: CommandEnv,
+    cwd: Option<OsString>,
+    flags: u32,
+    detach: bool,
+    stdin: Option<Stdio>,
+    stdout: Option<Stdio>,
+    stderr: Option<Stdio>,
+    force_quotes_enabled: bool,
+}
+```
+
+`.spawn()` = ❌Not waits for process and ❌not capture output. (asynchronously)
+`.status()` = ✅Wait for process and ❌not capture output.
+`.output()` = ✅Wait for process and ✅capture output.
+
+
 ```rust
 use std::process::Command;
 
@@ -63,3 +86,4 @@ fn main() {
 }
 
 ```
+
