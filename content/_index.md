@@ -21,12 +21,6 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<!-- This is my website dedicated to archiving and sharing various software development code snippets.
-
-I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
-
-As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments. -->
-
 <!-- one line space -->
 <div class="hx:mb-6">
 {{< hextra/hero-subtitle >}}   &nbsp;<br class="hx:sm:block hx:hidden" />          {{< /hextra/hero-subtitle >}}
@@ -51,3 +45,11 @@ As the code base grew, I decided to migrate it to here. I think it will make it 
   >}}
 
 {{< /hextra/feature-grid >}}
+
+<!-- Welcome to Rust programming cheetsheet section.  
+
+This is my website dedicated to archiving and sharing various software development code snippets.
+
+I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
+
+As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments. -->
