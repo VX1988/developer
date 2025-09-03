@@ -8,8 +8,8 @@ This section covers Rust programming topics.
 <!--more-->
 
 {{< cards >}}
-  {{< card link="CP2-cargo-management" title="CP2 cargo management" icon="latex" >}}
-  {{< card link="customization" title="Customization" icon="pencil" >}}
-  {{< card link="comments" title="Comments System" icon="chat-alt" >}}
+  {{< card link="CP2-cargo-management" title="CP2 cargo management" icon="variable" >}}
+  {{< card link="CP3-rust-tooling" title="CP3 rust tooling" icon="variable" >}}
+  {{< card link="XX-Random" title="XX-Random" icon="variable" >}}
 {{< /cards >}}
 
