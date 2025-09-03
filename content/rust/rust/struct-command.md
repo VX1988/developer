@@ -21,9 +21,9 @@ pub struct Command {
 }
 ```
 
-`.spawn()` = ❌Not waits for process and ❌not capture output. (asynchronously)
-`.status()` = ✅Wait for process and ❌not capture output.
-`.output()` = ✅Wait for process and ✅capture output.
+- `.spawn()` = ❌Not waits for process and ❌not capture output. (asynchronously)
+- `.status()` = ✅Wait for process and ❌not capture output.
+- `.output()` = ✅Wait for process and ✅capture output.
 
 
 ```rust
