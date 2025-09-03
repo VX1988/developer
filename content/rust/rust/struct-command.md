@@ -1,3 +1,8 @@
+---
+title: Struct command
+type: docs
+---
+
 ```rust
 use std::process::Command;
 
