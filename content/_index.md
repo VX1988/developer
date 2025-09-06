@@ -43,6 +43,13 @@ layout: hextra-home
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
+  {{< hextra/feature-card
+    title="C/CPP"
+    link="c-cpp"
+    subtitle="C/C++ 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(59,130,246,0.15), hsla(0,0%,100%,0));"
+  >}}
 
 {{< /hextra/feature-grid >}}
 
