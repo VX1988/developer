@@ -89,7 +89,7 @@ fn main() {
 
 # Scripting in strings.
 
-- By doing this way, you no need to escape all `\` OR `, i waste a lot of time solving this and i find this approach is much more easier. PS is more flexibel when there is complex script, F cmd.
+- By doing this way, you no need to escape all `\` OR `,` i waste a lot of time solving this and i find this approach is much more easier. PS is more flexibel when there is complex script, F cmd.
 
 ```rs
 use std::process::{Command, Stdio};
