@@ -7,7 +7,7 @@ title: Rust
 <!-- need all lower case for link="" -->
 {{< cards >}}
   {{< card link="rust/01-getting-started/" title="Getting Started" icon="variable" >}}
-  {{< card link="rust/std-process-command.md/" title="std::process::Command" icon="variable" >}}
+  {{< card link="rust/std-process-command/" title="std::process::Command" icon="variable" >}}
 {{< /cards >}}
 
 <!-- Archiving, Because it think this is ugly and unmanageble to refer back. -->
