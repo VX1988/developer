@@ -32,17 +32,9 @@ layout: hextra-home
   {{< hextra/feature-card
     title="Rust Fundamental"
     link="rust"
-    subtitle="My journey completing rust programming official documentation and internal understanding. After thinking about it several times, I found it useful and necessary to document it here. Enjoy!。"
+    subtitle="My journey completing rust official documentation and internal understanding. After thinking about it several times, I found it useful and necessary to document it here. Enjoy!"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
 
 {{< /hextra/feature-grid >}}
-
-<!-- Welcome to Rust programming cheetsheet section.  
-
-This is my website dedicated to archiving and sharing various software development code snippets.
-
-I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
-
-As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments. -->
