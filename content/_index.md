@@ -5,7 +5,7 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>VX1988 Version</span>
+  <span>🟢 VX1988 Programming-Documentation</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
@@ -30,9 +30,9 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Rust Basics"
+    title="Rust Fundamental"
     link="rust"
-    subtitle="Rust 编程。就像地球上那些水滴的力量，人类可以学习并把它当早餐吃掉。"
+    subtitle="My journey completing rust programming official documentation and internal understanding. After thinking about it several times, I found it useful and necessary to document it here. Enjoy!。"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
