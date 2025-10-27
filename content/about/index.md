@@ -3,8 +3,11 @@ title: About
 toc: false
 ---
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+About this site, this is programming documentation site.  
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+This is my website dedicated to archiving and sharing various software development code snippets.
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
+I got tired of re-writing the same code over and over so I ended up making a private repository of code snippets to easily copy-paste. I decided to share it publicly because I think other people might find it helpful too.
+
+As the code base grew, I decided to migrate it to here. I think it will make it easier to find code segments.
+
