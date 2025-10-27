@@ -2,7 +2,6 @@
 title: Project management with cargo
 type: docs
 prev: docs/rust/
-weight: 1
 ---
 
 ## Creating a new application or library
