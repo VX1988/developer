@@ -93,13 +93,13 @@ output: 1
 
 Rust is a **statically** typed language, which means that it must know the types of all variables at compile time
 
-<img width="977" height="411" alt="Image" src="https://github.com/user-attachments/assets/18126875-4a17-41f6-a13d-6ccaa099e55d" />
+![alt text](image.png)
 
 Additionally, the isize and usize types depend on the architecture of the computer your program is running on: 64 bits if you’re on a 64-bit architecture and 32 bits if you’re on a 32-bit architecture.
 
 Number literals can also use _ as a visual separator to make the number easier to read, such as `1_000` ,which will have the same value as if you had specified `1000` .
 
-<img width="816" height="367" alt="Image" src="https://github.com/user-attachments/assets/38e80ac0-db78-4839-a416-da1cfb7e82db" />
+![alt text](image-1.png)
 
 ## Creating a new application or library
 
