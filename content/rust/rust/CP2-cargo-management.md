@@ -372,5 +372,15 @@ If dynamic memory allocation is desired, it’s relatively easy to create your o
 
 TIP: On Linux systems, you should statically link to musl rather than using the system’s C library for maximum portability when distributing precompiled binaries.
 
+- `rustup update` -> updating to a newly released version
+- `rustup self uninstall` -> To uninstall Rust and rustup
+- `rustup doc` -> local copy of the documentation so that you can read it offline
+- `rustfmt` -> utomatic formatter tool to format your code in a particular style. exp: `rustfmt .\main.rs`
+- `cargo build` -> build binary to debug .exe
+- `Cargo.lock` ->  This file keeps track of the exact versions of dependencies in your project.
+- `cargo run` -> compile the code and then run the resultant executable
+- `cargo check` -> quickly checks your code to make sure it compiles but doesn’t produce an executable
+- `build --release` -> to compile it with optimizations
 
-
+- If you’re using more than one word in your filename, the convention is to use an underscore to separate them. For example, use hello_world.rs rather than helloworld.rs.
+- Git files won’t be generated if you run cargo new within an existing Git repository; you can override this behavior by using `cargo new --vcs=git`

@@ -1,6 +1,6 @@
 ---
 linkTitle: rust
-title: Rust
+title: Rust Fundamental
 ---
 
 

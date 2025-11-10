@@ -30,7 +30,7 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Rust Fundamental"
+    title="Unofficial Rust Documentation"
     link="rust"
     subtitle="My journey completing rust official documentation and internal understanding. After thinking about it several times, I found it useful and necessary to document it here. Enjoy!"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
