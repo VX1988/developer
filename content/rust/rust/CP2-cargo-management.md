@@ -4,6 +4,52 @@ type: docs
 prev: docs/rust/
 ---
 
+- `rustup update` -> updating to a newly released version
+- `rustup self uninstall` -> To uninstall Rust and rustup
+- `rustup doc` -> local copy of the documentation so that you can read it offline
+- `rustfmt` -> utomatic formatter tool to format your code in a particular style. exp: `rustfmt .\main.rs`
+- `cargo build` -> build binary to debug .exe
+- `Cargo.lock` ->  This file keeps track of the exact versions of dependencies in your project.
+- `cargo run` -> compile the code and then run the resultant executable
+- `cargo check` -> quickly checks your code to make sure it compiles but doesn’t produce an executable
+- `build --release` -> to compile it with optimizations
+- `cargo update` -> figure out all the latest versions, Cargo will only look for versions greater. example: Updating rand v0.8.5 -> v0.8.6 (available: v0.9.0)
+
+- If you’re using more than one word in your filename, the convention is to use an underscore to separate them. For example, use hello_world.rs rather than helloworld.rs.
+- Git files won’t be generated if you run cargo new within an existing Git repository; you can override this behavior by using `cargo new --vcs=git`
+- If you started a project that doesn’t use Cargo, as we did with the “Hello, world!” project, you can convert it to a project that does use Cargo. Move the project code into the src directory and create an appropriate Cargo.toml file. One easy way to get that Cargo.toml file is to run `cargo init`, which will create it for you automatically.
+- - `cargo check` is much faster than `cargo build` because it skips the step of producing an executable
+- - By default, Rust has a set of items defined in the standard library that it brings into the scope of every program. This set is called the prelude, and you can see everything in it in the standard library documentation.(https://doc.rust-lang.org/std/prelude/index.html)
+- `()` -> parentheses with no parameters.
+- `println!` is a macro.
+- variable are immutable by default.
+- `use std::io;` -> standard library
+- The `&` indicates that this argument is a reference.  references are immutable by default.
+- Result ’s variants are `Ok` and `Err`
+- If this instance of Result is an Err value, expect will cause the program to crash and display the message that you passed as an argument to expect .
+
+```rust
+let x = 5;
+let y = 10;
+
+println!("x = {x} and y + 2 = {}", y + 2);
+
+// This code would print x = 5 and y + 2 = 12.
+```
+
+`[dependencies], `[package]` is call section.
+
+`rand::thread_rng().gen_range(1,101);` 
+->  we call the `rand::thread_rng` function
+-> Then we call the `gen_range` method 
+
+`use rand::Rng;`
+-> `Rng` is trait.
+
+Another neat feature of Cargo is that running the `cargo doc --open` command will build documentation provided by all your dependencies locally and open it in your browser.
+
+
+
 ## Creating a new application or library
 
 Applications use `src/main.rs` as their entrypoint, and libraries use `src/lib.rs` as their entrypoint.
@@ -371,16 +417,3 @@ If dynamic memory allocation is desired, it’s relatively easy to create your o
 - https://doc.rust-lang.org/core/alloc/trait.GlobalAlloc.html
 
 TIP: On Linux systems, you should statically link to musl rather than using the system’s C library for maximum portability when distributing precompiled binaries.
-
-- `rustup update` -> updating to a newly released version
-- `rustup self uninstall` -> To uninstall Rust and rustup
-- `rustup doc` -> local copy of the documentation so that you can read it offline
-- `rustfmt` -> utomatic formatter tool to format your code in a particular style. exp: `rustfmt .\main.rs`
-- `cargo build` -> build binary to debug .exe
-- `Cargo.lock` ->  This file keeps track of the exact versions of dependencies in your project.
-- `cargo run` -> compile the code and then run the resultant executable
-- `cargo check` -> quickly checks your code to make sure it compiles but doesn’t produce an executable
-- `build --release` -> to compile it with optimizations
-
-- If you’re using more than one word in your filename, the convention is to use an underscore to separate them. For example, use hello_world.rs rather than helloworld.rs.
-- Git files won’t be generated if you run cargo new within an existing Git repository; you can override this behavior by using `cargo new --vcs=git`
