@@ -48,7 +48,58 @@ println!("x = {x} and y + 2 = {}", y + 2);
 
 Another neat feature of Cargo is that running the `cargo doc --open` command will build documentation provided by all your dependencies locally and open it in your browser.
 
+```rs
+Ordering::Less => println!("Too small!"),
+Ordering::Greater => println!("Too big!"),
+Ordering::Equal => println!("You win!"),
+```
 
+The Ordering type is another enum and has the variants Less, Greater, and Equal.
+ 
+`match` construct are powerful Rust features
+
+rather than crashing the program when the user inputs a nonnumber, let’s make the game ignore a non-number so the user can continue guessing. `continue`
+
+`Result` is an enum that has the variants `Ok` and `Err`.
+
+variables are immutable, once a value is bound to a name, you can’t change that value.
+
+`const` -> constants are values that are bound to a name and are not allowed to change. Constants aren’t just immutable by default— they’re always immutable. exp: `const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;`
+
+Rust’s naming convention for `constants` is to use all uppercase with underscores between words.
+
+```rs
+fn main() {
+  let mut x: u32 = 1;
+  x = "Hello world";
+  println!("{x}");
+}
+
+# error, this is not shadowing. error is the mut. to change the type from number to strings.
+```
+
+```rs
+fn main() {
+  let mut x: u32 = 1;
+  {
+    let mut x = x;
+    x += 2;
+  }
+  println!("{x}");
+}
+
+output: 1
+```
+
+Rust is a **statically** typed language, which means that it must know the types of all variables at compile time
+
+<img width="977" height="411" alt="Image" src="https://github.com/user-attachments/assets/18126875-4a17-41f6-a13d-6ccaa099e55d" />
+
+Additionally, the isize and usize types depend on the architecture of the computer your program is running on: 64 bits if you’re on a 64-bit architecture and 32 bits if you’re on a 32-bit architecture.
+
+Number literals can also use _ as a visual separator to make the number easier to read, such as `1_000` ,which will have the same value as if you had specified `1000` .
+
+<img width="816" height="367" alt="Image" src="https://github.com/user-attachments/assets/38e80ac0-db78-4839-a416-da1cfb7e82db" />
 
 ## Creating a new application or library
 
